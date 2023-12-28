@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     setPosts(data);
   }, [data, setPosts]);
-  useStoreActions;
+  
   return (
     <div className="App">
       <Header title="React JS Blog" />
